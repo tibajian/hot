@@ -37,7 +37,7 @@ git checkout dev | git switch <name>
 git branch --查看分支
 git merge dev --合并指定分支(dev)到当前分支(main)
 git branch -d dev --删除分支
-git branch --set-upstream branch-name origin/branch-name  --建立本地分支和远程分支的关联，使用
+git branch --set-upstream-to branch-name origin/branch-name  --建立本地分支和远程分支的关联，使用
 ```
 # 合并冲突
 ```
